@@ -8,8 +8,8 @@
 
 <br>
 You want to bring **i18n** and **l10n** to your Angular apps and couldn't find an easy way
-how to do it? angular-translate got you covered. It comes with plenty useful features
-and extensions and gives you ultra high flexibility when it comes to customization.
+how to do it? angular-translate has you covered. It comes with plenty useful features
+and extensions, giving you ultra-high flexibility when it comes to customization.
 These are just a few of the great features:
 
 ## Features
@@ -45,7 +45,7 @@ Inject <code>angular-translate</code> module as a dependency into your app:
 var app = angular.module('myApp', ['pascalprecht.translate']);
 </pre>
 
-Teach you app translations:
+Teach your app translations:
 
 <pre>
 app.config(['$translateProvider', function ($translateProvider) {
@@ -70,7 +70,7 @@ Translate your app:
 <p>{{ 'FOO' | translate }}</p>
 </pre>
 
-This is just a quick example of how angular-translate actually works. Basically
+This is just a quick example of how angular-translate actually works. Basically,
 the whole thing works like "_Provide some i18n data, let angular-translate know of it
 and use its components to interpolate your translations (against some values)._".
 Easy, huh?
